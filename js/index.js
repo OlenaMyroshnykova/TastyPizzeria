@@ -1,4 +1,4 @@
-const requestURL = 'http://localhost:3000/pizzas';
+const requestURL = '../json/pizzas.json';
 
 async function fetchPizzasJson(){
     const response = await fetch(requestURL);
@@ -7,8 +7,9 @@ async function fetchPizzasJson(){
 }
 
 fetchPizzasJson().then(pizza=>{
-    for (let index=0; index<pizza.pizzas.lenghth; index++){
+    for (let index=0; index<pizza.pizzas.length; index++){
         let price = pizza.pizzas[index].price;
-        console.log(price);
+        let pizzaName = pizza.pizzas[index].name;
+        console.log(pizzaName + "-" + price);
     }
 });
