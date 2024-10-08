@@ -1,0 +1,17 @@
+{
+    "name": "tastypizza",
+    "version": "1.0.0",
+    "description": "TastyPizza",
+    "main": "index.html",
+    "dependencies": {
+        "json-server": "*"
+    },
+    "devDependencies": {
+        "jest": "*"
+    },
+    "scripts": {
+        "test": "Test"
+    },
+    "author": "CodeDreamers",
+    "license": "ISC"
+}
