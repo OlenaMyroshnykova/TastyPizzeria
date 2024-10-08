@@ -7,11 +7,11 @@
         "json-server": "*"
     },
     "devDependencies": {
-        "jest": "*"
+        "Test": "*"
     },
     "scripts": {
         "test": "Test"
     },
     "author": "CodeDreamers",
-    "license": "ISC"
+    "license": "CD"
 }

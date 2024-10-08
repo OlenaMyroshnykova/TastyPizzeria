@@ -1,0 +1,65 @@
+{
+    "pizzas": [
+      {
+        "id": 1,
+        "name": "Margherita",
+        "price": 8.99,
+        "image": "https://example.com/images/margherita.jpg"
+      },
+      {
+        "id": 2,
+        "name": "Pepperoni",
+        "price": 10.49,
+        "image": "https://example.com/images/pepperoni.jpg"
+      },
+      {
+        "id": 3,
+        "name": "BBQ Chicken",
+        "price": 11.99,
+        "image": "https://example.com/images/bbq_chicken.jpg"
+      },
+      {
+        "id": 4,
+        "name": "Hawaiian",
+        "price": 9.99,
+        "image": "https://example.com/images/hawaiian.jpg"
+      },
+      {
+        "id": 5,
+        "name": "Veggie Delight",
+        "price": 8.49,
+        "image": "https://example.com/images/veggie_delight.jpg"
+      },
+      {
+        "id": 6,
+        "name": "Four Cheese",
+        "price": 12.99,
+        "image": "https://example.com/images/four_cheese.jpg"
+      },
+      {
+        "id": 7,
+        "name": "Meat Lover's",
+        "price": 13.49,
+        "image": "https://example.com/images/meat_lovers.jpg"
+      },
+      {
+        "id": 8,
+        "name": "Spicy Italian",
+        "price": 11.49,
+        "image": "https://example.com/images/spicy_italian.jpg"
+      },
+      {
+        "id": 9,
+        "name": "Mushroom Truffle",
+        "price": 14.99,
+        "image": "https://example.com/images/mushroom_truffle.jpg"
+      },
+      {
+        "id": 10,
+        "name": "Buffalo Chicken",
+        "price": 12.49,
+        "image": "https://example.com/images/buffalo_chicken.jpg"
+      }
+    ]
+  }
+  
