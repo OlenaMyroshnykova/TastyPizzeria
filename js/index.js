@@ -12,6 +12,7 @@ fetchPizzasJson().then(pizza=>{
         let pizzaName = pizza.pizzas[index].name;
         let image = pizza.pizzas[index].image;
         let ingredients = pizza.pizzas[index].ingredients;
+
         pizzaSection.innerHTML += `
         <div class="card" style="width: 18rem;">
             <img src=${image} class="card-img-top" alt="...">
@@ -28,4 +29,5 @@ fetchPizzasJson().then(pizza=>{
             <a href="#" class="card-link"></a>
             <a href="#" class="card-link"></a>
         </div>
-    </div>`}});
+    </div>`
+}});
