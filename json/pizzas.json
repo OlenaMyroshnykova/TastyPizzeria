@@ -4,61 +4,71 @@
         "id": 1,
         "name": "Margherita",
         "price": 8.99,
-        "image": "https://example.com/images/margherita.jpg"
+        "image": "https://www.telepizza.es/on/demandware.static/-/Sites-master-catalog-es/default/dwf7d4efbf/PIZZAS/MAESTRAS/montanesa.png",
+        "ingredients": "Tomato sauce, Mozzarella cheese, Basil"
       },
       {
         "id": 2,
         "name": "Pepperoni",
         "price": 10.49,
-        "image": "https://example.com/images/pepperoni.jpg"
+        "image": "https://www.telepizza.es/on/demandware.static/-/Sites-master-catalog-es/default/dw51731efb/PIZZAS/LASCLASICAS/pepe.png",
+        "ingredients": "Tomato sauce, Mozzarella cheese, Pepperoni"
       },
       {
         "id": 3,
         "name": "BBQ Chicken",
         "price": 11.99,
-        "image": "https://example.com/images/bbq_chicken.jpg"
+        "image": "https://www.telepizza.es/on/demandware.static/-/Sites-master-catalog-es/default/dw3f147820/PIZZAS/LASCLASICAS/delahuerta.png",
+        "ingredients": "BBQ sauce, Chicken, Mozzarella cheese, Onions"
       },
       {
         "id": 4,
         "name": "Hawaiian",
         "price": 9.99,
-        "image": "https://example.com/images/hawaiian.jpg"
+        "image": "https://www.telepizza.es/on/demandware.static/-/Sites-master-catalog-es/default/dw543e1180/PIZZAS/LASCLASICAS/hawaiana.png",
+        "ingredients": "Tomato sauce, Mozzarella cheese, Ham, Pineapple"
       },
       {
         "id": 5,
         "name": "Veggie Delight",
         "price": 8.49,
-        "image": "https://example.com/images/veggie_delight.jpg"
+        "image": "https://www.telepizza.es/on/demandware.static/-/Sites-master-catalog-es/default/dw3f147820/PIZZAS/LASCLASICAS/delahuerta.png",
+        "ingredients": "Tomato sauce, Mozzarella cheese, Bell peppers, Onions, Mushrooms, Olives"
       },
       {
         "id": 6,
         "name": "Four Cheese",
         "price": 12.99,
-        "image": "https://example.com/images/four_cheese.jpg"
+        "image": "https://www.telepizza.es/on/demandware.static/-/Sites-master-catalog-es/default/dw6a1c2f31/PIZZAS/CREATUPIZZA/atugusto.png",
+        "ingredients": "Tomato sauce, Mozzarella cheese, Parmesan cheese, Gorgonzola, Goat cheese"
       },
       {
         "id": 7,
         "name": "Meat Lover's",
         "price": 13.49,
-        "image": "https://example.com/images/meat_lovers.jpg"
+        "image": "https://www.telepizza.es/on/demandware.static/-/Sites-master-catalog-es/default/dw45bf531e/PIZZAS/MAESTRAS/belisimamaestra.png",
+        "ingredients": "Tomato sauce, Mozzarella cheese, Pepperoni, Sausage, Bacon, Ham"
       },
       {
         "id": 8,
         "name": "Spicy Italian",
         "price": 11.49,
-        "image": "https://example.com/images/spicy_italian.jpg"
+        "image": "https://www.telepizza.es/on/demandware.static/-/Sites-master-catalog-es/default/dwb2ddc445/PIZZAS/MAESTRAS/picantonamaestra.png",
+        "ingredients": "Tomato sauce, Mozzarella cheese, Spicy sausage, Jalapeños, Red pepper flakes"
       },
       {
         "id": 9,
         "name": "Mushroom Truffle",
         "price": 14.99,
-        "image": "https://example.com/images/mushroom_truffle.jpg"
+        "image": "https://www.telepizza.es/on/demandware.static/-/Sites-master-catalog-es/default/dw52dc2c4a/PIZZAS/MAESTRAS/trufada.png",
+        "ingredients": "Truffle cream, Mozzarella cheese, Mushrooms, Parmesan cheese"
       },
       {
         "id": 10,
         "name": "Buffalo Chicken",
         "price": 12.49,
-        "image": "https://example.com/images/buffalo_chicken.jpg"
+        "image": "https://www.telepizza.es/on/demandware.static/-/Sites-master-catalog-es/default/dw11f9fa5f/PIZZAS/CREATUPIZZA/pormitades.png",
+        "ingredients": "Buffalo sauce, Chicken, Mozzarella cheese, Red onions, Ranch dressing"
       }
     ]
   }
