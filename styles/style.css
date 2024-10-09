@@ -98,15 +98,70 @@ h6 {
     margin-top: 30px;
     margin-left: 0;
   }
-  .pizzaCards {
-    display: flex;
-    justify-content: center;
-    border: 1px solid rgba(242, 201, 76, 1);
-    margin-bottom: 30px;
-  }
-
-  .cardBody {
-    margin: 0;
-    text-align: center;
-  }
+ 
 }
+
+.cardsPizza{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.mainTop{
+    display: flex;
+    flex-direction: column;
+    height: 1024px;
+    width: 1440px;
+    justify-content:flex-end;
+    align-items:center;
+    row-gap: 22px;
+    /* column-gap: 35px; */
+
+    background-image: 
+        url("../images/Rectangle_2.png"), 
+        url("../images/wood-2045380_1920.png")
+        ;
+    background-position:bottom;
+}
+
+.lineUnderBrandName{
+    height: 4px;
+    width: 482px;
+    justify-content: center;
+    background-color: #F2C94C;
+    /* border: 1px solid yellow"; */
+}
+
+
+.brandDescription{
+    height: 201px;
+    width: 745px;
+    /* border: 2px solid burlywood; */
+    color: white;
+    font-size: 28px;
+    text-align: justify;
+    ;
+}
+
+.branName{
+    height: 67px;
+    max-width: 100%;
+    width: 806px;
+    /* border: 2px solid burlywood; */
+    text-align:center;
+    text-transform: uppercase;
+    font-family: "Quattrocento", serif;
+
+
+    color: white;
+    /* font-family:monospace; */
+    font-size:72px;
+    /* font-size: 18px; */
+    font-weight: bold;
+}
+
+/* .pizza-3000285_1920{
+
+} */
