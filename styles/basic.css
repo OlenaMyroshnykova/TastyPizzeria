@@ -1,0 +1,21 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: "Ruda", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+body h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Quattrocento", serif;
+}
