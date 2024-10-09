@@ -1,7 +1,7 @@
-@import url(/styles/basic.css);
-@import url(/styles/header.css);
-@import url(/styles/main_top.css);
-@import url(/styles/main_about_us.css);
-@import url(/styles/main_menu.css);
-@import url(/styles/main_cards.css);
-@import url(/styles/footer.css);
+@import url("basic.css");
+@import url("header.css");
+@import url("main_top.css");
+@import url("main_about_us.css");
+@import url("main_menu.css");
+@import url("main_cards.css");
+@import url("footer.css");
