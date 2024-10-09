@@ -5,3 +5,47 @@
     justify-content: space-around;
     margin-top: 10px;
 }
+
+.Container{
+    display: flex;
+    flex-direction: column;
+    height: 1024px;
+    width: 1440px;
+    /* justify-content: space-arounds; */
+    justify-content:space-between;
+    align-items:center;
+    background-image: url("../images/Rectangle_2.png"), url("../images/wood-2045380_1920.png");
+    background-position:bottom;
+}
+
+.Rectangle3{
+    /* justify-content: center;
+    height: 4px;
+    width: 482px;
+    border: 2px solid rgb(17, 97, 15); */
+}
+
+.BrandDescription{
+    height: 4px;
+    width: 482px;
+    fill: "#F2C94C";
+    justify-content: center;
+    border: 2px solid burlywood;
+    color: white;
+    text-align: center;
+    /* justify-content: center; */
+}
+
+.BranName{
+    /* align-items:center;
+    justify-content: center; */
+    color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:72px;
+    font-weight: bold;
+}
+
+.pizza-3000285_1920{
+    /* justify-content:end; */
+    /* align-items: end; */
+}
