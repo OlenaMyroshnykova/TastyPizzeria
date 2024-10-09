@@ -1,75 +1,90 @@
 {
-    "pizzas": [
-      {
+  "pizzas": [
+    {
         "id": 1,
-        "name": "Margherita",
-        "price": 8.99,
-        "image": "https://www.telepizza.es/on/demandware.static/-/Sites-master-catalog-es/default/dwf7d4efbf/PIZZAS/MAESTRAS/montanesa.png",
-        "ingredients": "Tomato sauce, Mozzarella cheese, Basil"
-      },
-      {
+        "name": "Trufa Negra",
+        "image": "https://i.postimg.cc/8Fm81W6k/pizza1.jpg",
+        "ingredients": "Salsa de crema, queso mozzarella, aceite de trufa negra, champiñones portobello, espinacas.",
+        "price": 15.00
+        
+    },
+    {
         "id": 2,
-        "name": "Pepperoni",
-        "price": 10.49,
-        "image": "https://www.telepizza.es/on/demandware.static/-/Sites-master-catalog-es/default/dw51731efb/PIZZAS/LASCLASICAS/pepe.png",
-        "ingredients": "Tomato sauce, Mozzarella cheese, Pepperoni"
-      },
-      {
+        "name": "Calabaza y Ricotta",
+        "image": "https://i.postimg.cc/c6HqSv4Z/pizza2.png",
+        "ingredients": "Puré de calabaza, queso ricotta, queso mozzarella, cebolla caramelizada, nueces.",
+        "price": 12.50
+    },
+    {
         "id": 3,
-        "name": "BBQ Chicken",
-        "price": 11.99,
-        "image": "https://www.telepizza.es/on/demandware.static/-/Sites-master-catalog-es/default/dw3f147820/PIZZAS/LASCLASICAS/delahuerta.png",
-        "ingredients": "BBQ sauce, Chicken, Mozzarella cheese, Onions"
-      },
-      {
+        "name": "Pato a la Naranja",
+        "image": "https://i.postimg.cc/4HnjbSFn/pizza3.png",
+        "ingredients": "Salsa de naranja, pato confitado, queso mozzarella, rodajas de higo, rúcula.",
+        "price": 18.00
+    },
+    {
         "id": 4,
-        "name": "Hawaiian",
-        "price": 9.99,
-        "image": "https://www.telepizza.es/on/demandware.static/-/Sites-master-catalog-es/default/dw543e1180/PIZZAS/LASCLASICAS/hawaiana.png",
-        "ingredients": "Tomato sauce, Mozzarella cheese, Ham, Pineapple"
-      },
-      {
+        "name": "Mediterránea",
+        "image": "https://i.postimg.cc/G8XZDCKZ/pizza4.jpg",
+        "ingredients": "Salsa de tomate, queso feta, aceitunas kalamata, pimientos asados, alcachofas.",
+        "price": 14.00
+    },
+    {
         "id": 5,
-        "name": "Veggie Delight",
-        "price": 8.49,
-        "image": "https://www.telepizza.es/on/demandware.static/-/Sites-master-catalog-es/default/dw3f147820/PIZZAS/LASCLASICAS/delahuerta.png",
-        "ingredients": "Tomato sauce, Mozzarella cheese, Bell peppers, Onions, Mushrooms, Olives"
-      },
-      {
+        "name": "Queso Azul y Pera",
+        "image": "https://i.postimg.cc/JDrftnNN/pizza5.jpg",
+        "ingredients": "Salsa de crema, queso azul, peras caramelizadas, nueces, rúcula fresca.",
+        "price": 13.50
+    },
+    {
         "id": 6,
-        "name": "Four Cheese",
-        "price": 12.99,
-        "image": "https://www.telepizza.es/on/demandware.static/-/Sites-master-catalog-es/default/dw6a1c2f31/PIZZAS/CREATUPIZZA/atugusto.png",
-        "ingredients": "Tomato sauce, Mozzarella cheese, Parmesan cheese, Gorgonzola, Goat cheese"
-      },
-      {
+        "name": "Salmón Ahumado",
+        "image": "https://i.postimg.cc/fkgGTMJd/pizza6.jpg",
+        "ingredients": "Salsa de eneldo, salmón ahumado, alcaparras, queso crema, cebolla morada.",
+        "price": 17.00
+    },
+    {
         "id": 7,
-        "name": "Meat Lover's",
-        "price": 13.49,
-        "image": "https://www.telepizza.es/on/demandware.static/-/Sites-master-catalog-es/default/dw45bf531e/PIZZAS/MAESTRAS/belisimamaestra.png",
-        "ingredients": "Tomato sauce, Mozzarella cheese, Pepperoni, Sausage, Bacon, Ham"
-      },
-      {
+        "name": "Cordero y Menta",
+        "image": "https://i.postimg.cc/2VbP1gZK/pizza7.jpg",
+        "ingredients": "Salsa de tomate, cordero asado, queso de cabra, menta fresca, espinacas.",
+        "price": 16.50
+    },
+    {
         "id": 8,
-        "name": "Spicy Italian",
-        "price": 11.49,
-        "image": "https://www.telepizza.es/on/demandware.static/-/Sites-master-catalog-es/default/dwb2ddc445/PIZZAS/MAESTRAS/picantonamaestra.png",
-        "ingredients": "Tomato sauce, Mozzarella cheese, Spicy sausage, Jalapeños, Red pepper flakes"
-      },
-      {
+        "name": "Higos y Jamón Ibérico",
+        "image": "https://i.postimg.cc/XpRtdxK7/pizza8.png",
+        "ingredients": "Salsa de tomate, higos frescos, jamón ibérico, queso manchego, reducción de balsámico.",
+        "price": 19.00
+    },
+    {
         "id": 9,
-        "name": "Mushroom Truffle",
-        "price": 14.99,
-        "image": "https://www.telepizza.es/on/demandware.static/-/Sites-master-catalog-es/default/dw52dc2c4a/PIZZAS/MAESTRAS/trufada.png",
-        "ingredients": "Truffle cream, Mozzarella cheese, Mushrooms, Parmesan cheese"
-      },
-      {
+        "name": "Carbonara de Setas",
+        "image": "https://i.postimg.cc/zLjMmrsV/pizza9.jpg",
+        "ingredients": "Salsa carbonara, setas silvestres, panceta crujiente, queso parmesano.",
+        "price": 14.50
+    },
+    {
         "id": 10,
-        "name": "Buffalo Chicken",
-        "price": 12.49,
-        "image": "https://www.telepizza.es/on/demandware.static/-/Sites-master-catalog-es/default/dw11f9fa5f/PIZZAS/CREATUPIZZA/pormitades.png",
-        "ingredients": "Buffalo sauce, Chicken, Mozzarella cheese, Red onions, Ranch dressing"
-      }
-    ]
-  }
-  
+        "name": "Pollo al Curry",
+        "image": "https://i.postimg.cc/R398bFbk/pizza10.jpg",
+        "ingredients": "Salsa de curry, pollo marinado, queso mozzarella, cilantro fresco, coco rallado.",
+        "price": 13.00
+    },
+    {
+        "id": 11,
+        "name": "Gambas Picantes",
+        "image": "https://i.postimg.cc/fVYpKX57/pizza11.jpg",
+        "ingredients": "Salsa de tomate, gambas marinadas en ajo y chile, queso mozzarella, cilantro fresco.",
+        "price": 15.50
+    },
+    {
+        "id": 12,
+        "name": "Tropical de Mango",
+        "image": "https://i.postimg.cc/9RQkCk21/pizza12.jpg",
+        "ingredients": "Salsa de mango, queso mozzarella, camarones, aguacate, chile dulce.",
+        "price": 16.00 
+    }
+]
+
+}
