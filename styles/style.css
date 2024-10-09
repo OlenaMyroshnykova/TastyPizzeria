@@ -51,16 +51,18 @@
 
 .branName{
     height: 67px;
+    max-width: 100%;
     width: 806px;
     /* border: 2px solid burlywood; */
     text-align:center;
     text-transform: uppercase;
+    font-family: "Quattrocento", serif;
 
 
     color: white;
     /* font-family:monospace; */
-    /* font-size:72px; */
-    font-size: 18px;
+    font-size:72px;
+    /* font-size: 18px; */
     font-weight: bold;
 }
 
