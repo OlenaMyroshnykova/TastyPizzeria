@@ -21,7 +21,7 @@ fetchPizzasJson().then(pizza => {
                 <p class="card-text">${ingredients}</p>
             </div>
             <ul class="list-group list-group-flush">
-                <li class="list-group-item">${price} euros</li>
+                <li class="list-group-item">${price} €</li>
                 <li class="list-group-item"></li>
                 <li class="list-group-item"></li>
             </ul>
