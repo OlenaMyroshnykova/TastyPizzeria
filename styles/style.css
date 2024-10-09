@@ -1,7 +1,32 @@
-.cardsPizza{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-around;
-    margin-top: 10px;
+body {
+  background-color: black;
+  color: white;
+  font-family: "Ruda", sans-serif;
+  font-size: 24px;
+  line-height: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+body h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Quattrocento", serif;
+}
+
+.mainContainer {
+  max-width: 1440px;
+}
+
+.cardsPizza {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 10px;
 }
