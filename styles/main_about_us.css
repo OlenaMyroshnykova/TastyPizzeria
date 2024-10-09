@@ -1,0 +1,11 @@
+.lineUnderAboutUs {
+    height: 4px;
+    width: 482px;
+    justify-content: center;
+    background-color: #f2c94c;
+  }
+
+  .aboutUs_description {
+    width: 745px;
+    text-align: justify;
+  }
