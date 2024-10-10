@@ -1,0 +1,57 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #000;
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 5;
+    width: 100%;
+    /* Adjust width if needed */
+    z-index: 1000;
+}
+.header-container {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding-inline: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo h1 {
+    margin: 0;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover,
+.nav-links a:active {
+    color: yellow;
+}
+
+.section {
+    padding: 100px;
+    /* Consider using Flexbox or Grid for more flexible layout */
+}
+
+.section#home {
+    background-color: #F4F4F4;
+}
+
+.section#about {
+    background-color: #E2E2E2;
+}
+
+.section#menu {
+    background-color: #D1D1D1;
+}
