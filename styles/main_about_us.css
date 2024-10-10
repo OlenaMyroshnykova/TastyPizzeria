@@ -1,22 +1,25 @@
 .lineUnderAboutUs {
     height: 4px;
     width: 100%;
-    justify-content: center;
     background-color: #f2c94c;
   }
 
   .aboutUs_description {
-    width: 750px;
+    width: 800px;
     text-align: justify;
   }
 
   .aboutUs {
     display: flex;
     flex-direction: row;
-    padding: 20px;
     gap: 5%;
   }
 
   .restaurant_photo {
     align-content: end;
+    margin-right: 20px;
+  }
+
+  .aboutUs_title {
+    font-size: xx-large;
   }
