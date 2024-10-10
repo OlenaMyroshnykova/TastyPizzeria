@@ -1,5 +1,5 @@
-# TastyPizzeria
-
+# Tasty Pizzeria / Deliciosa pizza
+<img src="images/favicon.ico" title="logo" alt="logo" width='100px' height='100px' />
 Welcome to **TastyPizzeria**, an intuitive and user-friendly web application that allows users to browse, customize, and order delicious pizzas. Whether you're a pizza lover or just want a quick and easy way to order your favorite food, TastyPizzeria has you covered!
 
 ## Table of Contents
@@ -35,14 +35,14 @@ To get a local copy of this project up and running on your machine, follow the i
 
 Make sure you have the following software installed on your machine:
 
-- [Node.js](https://nodejs.org/en/download/) (v14 or higher)
+- [Node.js](https://nodejs.org/en/download/) (v20 or higher)
 - [npm](https://www.npmjs.com/get-npm) (v6 or higher)
 
 ### Installation
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/OlenaMyroshnykova/TastyPizzeria.git
+    git clone https://github.com/OlenaMyroshnykova/TastyPizzeria.git
 2. Navigate to the project directory:
     cd TastyPizzeria
 3. Install dependencies:
