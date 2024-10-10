@@ -1,7 +1,3 @@
-.mainContainer {
-  max-width: 1440px;
-}
-
 .pizzaSection {
   display: flex;
   flex-direction: row;
