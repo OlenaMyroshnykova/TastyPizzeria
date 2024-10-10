@@ -1,0 +1,40 @@
+.mainBottom {
+    height: 1024px;
+    /* width: 1440px; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    justify-content:flex-start:
+  
+    align-items: center;
+    /* row-gap: 22px; */
+  
+    background-image: url("../images/Rectangle_2.png"),
+      url("../images/wood-2045380_1920.png");
+    background-position: bottom;
+  }
+  
+  .lineUnderBrandName2 {
+    height: 4px;
+    width: 482px;
+    justify-content: center;
+    background-color: #f2c94c;
+    border: 1px solid yellow";
+  }
+
+  .branName2 {
+    /* height: 67px; */
+    max-width: 100%;
+    width: 806px;
+    justify-content: center;
+    border: 2px solid burlywood;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Quattrocento", serif;
+  
+    color: white;
+    /* font-family:monospace; */
+    font-size: 72px;
+    /* font-size: 18px; */
+    font-weight: bold;
+  }
