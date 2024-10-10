@@ -24,3 +24,58 @@
   .aboutUs_title {
     font-size: xx-large;
   }
+
+  @media (max-width: 480px) {
+    .aboutUs {
+      box-sizing: border-box;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .aboutUs_title {
+      font-size: large;
+      text-align: center;
+    }
+
+    .aboutUs_description {
+      width: 344px;
+      font-size: 14px;
+      text-align: justify;
+      justify-content: center;
+    }
+
+    img {
+      width: 80%;
+      height: auto;
+      object-fit: cover;
+      padding-left: 60px;
+    }
+  }
+
+  @media (max-width: 900px) {
+    .aboutUs {
+      box-sizing: border-box;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .aboutUs_title {
+      font-size: x-large;
+      text-align: center;
+    }
+
+    .aboutUs_description {
+      font-size: 16px;
+      text-align: justify;
+    }
+
+    img {
+      width: 80%;
+      height: auto;
+      object-fit: cover;
+    }
+  }
