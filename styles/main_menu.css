@@ -3,3 +3,9 @@
     display: flex;
     justify-content: center;
 }
+
+.ourMenu_description {
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
