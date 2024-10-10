@@ -20,6 +20,8 @@
     margin-left: 200px;
     margin-right: 200px;
 }
-
-.img {
+.photoes_ourMenu {
+    box-sizing: border-box;
+    display: flex;
+    gap: 20px;
 }
