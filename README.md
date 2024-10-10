@@ -78,4 +78,5 @@ Distributed under the MIT License. See LICENSE for more information.
 If you have any questions, feel free to reach out:
 
 Project Maintainers: Olena Myroshnykova, Nadiia Alaieva, Anna Nepyivoda, Oleg Poberezhets, Alex Manzhos.
+
 e-mail: CodeDreamers@gmail.com
