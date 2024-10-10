@@ -5,11 +5,12 @@
   }
 
   .aboutUs_description {
-    width: 800px;
+    width: 474px;
     text-align: justify;
   }
 
   .aboutUs {
+    box-sizing: border-box;
     display: flex;
     flex-direction: row;
     gap: 5%;
