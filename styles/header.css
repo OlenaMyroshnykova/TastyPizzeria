@@ -1,0 +1,59 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+
+.logo h1 {
+    margin: 0;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: yellow;
+}
+
+.nav-links a:active {
+    color: yellow;
+}
+
+section {
+    padding: 100px;
+    height: 100vh;
+}
+
+#home {
+    background-color: #F4F4F4;
+}
+
+#about {
+    background-color: #E2E2E2;
+}
+
+#menu {
+    background-color: #D1D1D1;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #000;
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 99%;
+    z-index: 1000;
+}
