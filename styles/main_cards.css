@@ -61,6 +61,33 @@
   object-fit: cover;
 }
 
+.pizzaSection {
+  display: flex;
+  flex-direction: column;
+  height: 1024px;
+  width: 1440px;
+}
+
+.cardsPizza {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.mainCardsTitle {
+  margin-bottom: 0;
+  font-size: 32px;
+}
+
+.lineUnderMenu {
+  height: 4px;
+  width: 180px;
+  background-color: #f2c94c;
+}
+
 @media (max-width: 768px) {
   .pizzaList {
     justify-content: space-between;
@@ -78,7 +105,7 @@
     margin-left: 0;
   }
 
-  .mainCardsTitle{
+  .mainCardsTitle {
     font-size: 24px;
   }
 
@@ -101,6 +128,7 @@
     font-size: 18px;
   }
   .pizzaCards {
+    width: 75%;
     display: flex;
     justify-content: center;
     border: 1px solid rgba(242, 201, 76, 1);
@@ -115,31 +143,4 @@
   .mainCardsTop {
     margin-bottom: 20px;
   }
-}
-
-.pizzaSection {
-  display: flex;
-  flex-direction: column;
-  height: 1024px;
-  width: 1440px;
-}
-
-.cardsPizza {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-  margin-top: 10px;
-}
-
-.mainCardsTitle {
-  font-size: 37px;
-  margin-bottom: 0;
-}
-
-.lineUnderMenu {
-  height: 4px;
-  width: 180px;
-  background-color: #f2c94c;
 }
