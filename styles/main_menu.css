@@ -32,7 +32,6 @@
 
 @media (max-width: 480px) {
     .photoes_ourMenu {
-        box-sizing: border-box;
         display: flex;
         flex-direction: column;
     }
