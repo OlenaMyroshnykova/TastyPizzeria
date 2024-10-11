@@ -5,8 +5,9 @@
     align-items: center;
 }
 
-.title_ourMenu {
+.title_ourMenu h3 {
     font-size: xx-large;
+    margin-bottom: 0;
 }
 
 .lineUnderOurMenu {
@@ -22,7 +23,6 @@
     margin-left: 20px;
 }
 
-
 .photoes_ourMenu {
     box-sizing: border-box;
     display: flex;
@@ -34,6 +34,7 @@
     .photoes_ourMenu {
         display: flex;
         flex-direction: column;
+        
     }
 
     .lineUnderOurMenu{
