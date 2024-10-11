@@ -78,6 +78,10 @@
     margin-left: 0;
   }
 
+  .mainCardsTitle{
+    font-size: 24px;
+  }
+
   .pizzaCard img {
     align-self: center;
     padding-left: 0;
