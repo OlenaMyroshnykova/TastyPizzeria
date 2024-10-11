@@ -88,12 +88,12 @@
   }
 
   .brandName2 {
-    font-size: 24px;
-    width: 80%;
+    font-size: 20px;
+    width: 40%;
     text-align: center;
   }
 
-  .mainBottom img {
+  .pizza {
     width: 80%;
   }
 
@@ -101,15 +101,18 @@
     width: 50%;
   }
   .contactsList {
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: center;
+
   }
 
   .contactsListItem:not(:last-child) {
-    margin-bottom: 10px;
+
+    margin-bottom: 5px;
   }
 
   .contactsIcon {
-    width: 30px;
-    height: 30px;
+    width: 20px;
+    height: 20px;
   }
 }
