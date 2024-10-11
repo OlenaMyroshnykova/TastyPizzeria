@@ -61,8 +61,6 @@
   object-fit: cover;
 }
 
-/* Стилі для відображення на різних девайсах */
-
 @media (max-width: 768px) {
   .pizzaList {
     justify-content: space-between;
@@ -72,7 +70,7 @@
 
 @media (max-width: 480px) {
   .pizzaCard {
-    max-width: 80%;
+    max-width: 70%;
     font-size: 14px;
     display: flex;
     flex-direction: column;
@@ -82,6 +80,7 @@
 
   .pizzaCard img {
     align-self: center;
+    padding-left: 0;
   }
 
   .pizzaCard:nth-child(odd) {
@@ -107,6 +106,10 @@
   .cardBody {
     margin: 0;
     text-align: center;
+  }
+
+  .mainCardsTop {
+    margin-bottom: 20px;
   }
 }
 

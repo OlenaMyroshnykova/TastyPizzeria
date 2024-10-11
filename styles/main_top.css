@@ -6,6 +6,7 @@
   justify-content: flex-end;
   align-items: center;
   margin: 0 auto;
+  padding-top: 0;
   background-image: url("../images/Rectangle_2.png"),
     url("../images/wood-2045380_1920.png");
   background-position: bottom;
@@ -72,23 +73,22 @@
 
 @media (max-width: 480px) {
   .mainTop {
-    padding-top: 110px;
+    padding-top: 100px;
     width: 100%;
-    padding: 10px;
     background-position: center;
     justify-content: flex-start;
     align-items: center;
   }
 
   .brandName {
-    font-size: 18px;
+    font-size: 20px;
     width: 40%;
     text-align: center;
   }
 
   .brandDescription {
-    width: 70%;
-    font-size: 10px;
+    width: 50%;
+    font-size: 14px;
     text-align: center;
     line-height: 1.4;
   }
@@ -100,5 +100,6 @@
   .mainTop img {
     width: 80%;
     height: auto;
+    padding-left: 0;
   }
 }
