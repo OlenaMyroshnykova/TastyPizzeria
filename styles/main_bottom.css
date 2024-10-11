@@ -47,6 +47,11 @@
 .contactsIcon {
   width: 50px;
   height: 50px;
+  transition: transform 0.3s ease;
+}
+
+.contactsIcon:hover {
+  transform: scale(1.25);
 }
 
 .contactsListItem:not(:last-child) {
@@ -103,11 +108,9 @@
   .contactsList {
     flex-direction: row;
     justify-content: center;
-
   }
 
   .contactsListItem:not(:last-child) {
-
     margin-bottom: 5px;
   }
 
