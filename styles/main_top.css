@@ -49,21 +49,34 @@
 
 @media (max-width: 768px) {
   .mainTop {
-    height: 70vh;
-    padding: 15px;
+    padding-top: 120px;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    justify-content: flex-start;
+    align-items: center;
   }
 
   .brandName {
-    font-size: 24px;
+    width: 40%;
+    text-align: center;
+    /* font-size: 24px; */
   }
 
   .brandName h1 {
-    font-size: 25px;
+    font-size: 32px;
   }
 
   .brandDescription {
-    width: 90%;
-    font-size: 16px;
+    width: 50%;
+    font-size: 20px;
+    text-align: center;
+    line-height: 1.4;
+  }
+  .mainTop img {
+    width: 60%;
+    height: auto;
+    padding-left: 0;
   }
 
   .lineUnderBrandName {
@@ -75,6 +88,7 @@
   .mainTop {
     padding-top: 120px;
     width: 100%;
+    height: 100%;
     background-position: center;
     justify-content: flex-start;
     align-items: center;
@@ -87,7 +101,7 @@
   }
 
   .brandDescription {
-    width: 50%;
+    width: 70%;
     font-size: 14px;
     text-align: center;
     line-height: 1.4;

@@ -44,12 +44,6 @@
   margin-left: 0;
 }
 
-.contactsIcon {
-  width: 50px;
-  height: 50px;
-  transition: transform 0.3s ease;
-}
-
 .contactsIcon:hover {
   transform: scale(1.25);
 }
@@ -58,16 +52,35 @@
   margin-right: 10px;
 }
 
+.contactsIcon {
+  width: 50px;
+  height: 50px;
+  transition: transform 0.3s ease;
+}
+
+
+
 @media (max-width: 768px) {
   .mainBottom {
-    height: 70vh;
-    padding: 15px;
+    width: 100%;
+    height: 100%;
+
+    padding: 10px;
+    padding-top: 0px;
+    background-position: center;
+    justify-content: flex-start;
+    align-items: center;
   }
 
   .brandName2 {
-    font-size: 36px;
+    /* font-size: 36px; */
+    width: 40%;
+    text-align: center;
   }
 
+  .pizza {
+    width: 60%;
+  }
   .brandName2 h2 {
     font-size: 32px;
   }
@@ -76,17 +89,34 @@
     width: 60%;
   }
 
+  .contactsList {
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: baseline;
+    padding: 0;
+    gap:15px;
+  }
+
+  .contactsListItem:not(:last-child) {
+    margin-bottom: 5px;
+  }
+
   .contactsIcon {
+    display: flex;
+    align-items: end;
+    justify-content:space-around;
     width: 40px;
     height: 40px;
   }
 }
+
 @media (max-width: 480px) {
   .mainBottom {
-    padding-top: 50px;
     width: 100vw;
-    /* width: 100%; */
+    height: 100%;
+ 
     padding: 10px;
+    padding-top: 0px;
     background-position: center;
     justify-content: flex-start;
     align-items: center;
@@ -99,15 +129,19 @@
   }
 
   .pizza {
-    width: 80%;
+    width: 60%;
   }
 
   .lineUnderBrandName2 {
     width: 50%;
+    height: auto;
   }
   .contactsList {
     flex-direction: row;
-    justify-content: center;
+    justify-content:space-around;
+    align-items: baseline;
+    padding: 0;
+    gap:10px;
   }
 
   .contactsListItem:not(:last-child) {
@@ -115,6 +149,9 @@
   }
 
   .contactsIcon {
+    display: flex;
+    align-items: end;
+    justify-content:space-around;
     width: 20px;
     height: 20px;
   }
