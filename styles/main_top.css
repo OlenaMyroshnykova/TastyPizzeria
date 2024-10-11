@@ -1,11 +1,11 @@
 .mainTop {
   height: 1024px;
-  width: auto;
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
   align-items: center;
-  /* row-gap: 22px; */
+  margin: 0 auto;
   background-image: url("../images/Rectangle_2.png"),
     url("../images/wood-2045380_1920.png");
   background-position: bottom;
@@ -17,48 +17,88 @@
   height: 4px;
   width: 482px;
   justify-content: center;
-  background-color: #f2c94c;
-  /* border: 1px solid yellow"; */
+  background-color: rgb(242, 201, 76);
+  margin-bottom: 20px;
 }
 
 .brandDescription {
   height: 201px;
   width: 745px;
-  /* border: 2px solid burlywood; */ 
   color: white;
   font-family: "Quattrocento", serif;
-  /* font-size: 28px; */
-  text-align: justify;
+  text-align: center;
 }
 
-.branName {
-  /* height: 67px; */
+.brandName {
   width: 100vw;
-  /* border: 2px solid burlywood; */
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   text-transform: uppercase;
   font-family: "Quattrocento", serif;
   color: white;
-  font-size: 72px;
+  font-size: 50px;
   font-weight: bold;
 }
 
+.brandName h1 {
+  margin-bottom: 25px;
+}
+
 @media (max-width: 768px) {
+  .mainTop {
+    height: 70vh;
+    padding: 15px;
+  }
+
+  .brandName {
+    font-size: 24px;
+  }
+
+  .brandName h1 {
+    font-size: 25px;
+  }
+
+  .brandDescription {
+    width: 90%;
+    font-size: 16px;
+  }
+
+  .lineUnderBrandName {
+    width: 60%;
+  }
 }
 
 @media (max-width: 480px) {
   .mainTop {
-    width: 80%;
-    height: 80%;
-    font-size: 14px;
-    display: flex;
-    flex-direction: column;
-    /* margin-top: 30px;
-    margin-left: 0; */
+    padding-top: 110px;
+    width: 100%;
+    padding: 10px;
+    background-position: center;
+    justify-content: flex-start;
+    align-items: center;
   }
 
-  .img{
-    height: 5%;
-    width: 5%;
+  .brandName {
+    font-size: 18px;
+    width: 40%;
+    text-align: center;
+  }
+
+  .brandDescription {
+    width: 70%;
+    font-size: 10px;
+    text-align: center;
+    line-height: 1.4;
+  }
+
+  .lineUnderBrandName {
+    width: 50%;
+  }
+
+  .mainTop img {
+    width: 80%;
+    height: auto;
   }
 }

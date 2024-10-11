@@ -1,57 +1,106 @@
 header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-    background-color: #000;
-    color: white;
-    position: fixed;
-    top: 0;
-    left: 5;
-    width: 100%;
-    /* Adjust width if needed */
-    z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #000;
+  color: white;
+  position: fixed;
+  top: 0;
+  left: 5;
+  width: 100%;
+  z-index: 1000;
 }
 .header-container {
-    width: 100%;
-    max-width: 1440px;
-    margin: 0 auto;
-    padding-inline: 16px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding-inline: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .logo h1 {
-    margin: 0;
+  margin: 0;
 }
 
 .nav-links a {
-    color: white;
-    text-decoration: none;
-    margin: 0 15px;
-    font-size: 18px;
-    transition: color 0.3s ease;
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 18px;
+  transition: color 0.3s ease;
 }
 
 .nav-links a:hover,
 .nav-links a:active {
-    color: yellow;
+  color: rgb(242, 201, 76);
 }
 
 .section {
-    padding: 100px;
-    /* Consider using Flexbox or Grid for more flexible layout */
+  padding: 100px;
 }
 
-.section#home {
-    background-color: #F4F4F4;
+@media (max-width: 1024px) {
+  header {
+    padding: 15px;
+  }
+
+  .logo h1 {
+    font-size: 22px;
+  }
+
+  .nav-links a {
+    font-size: 16px;
+  }
 }
 
-.section#about {
-    background-color: #E2E2E2;
+@media (max-width: 768px) {
+  .nav-links {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  header {
+    padding: 10px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .logo h1 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  .nav-links a {
+    font-size: 16px;
+  }
+
+  .nav-links {
+    margin-right: 0;
+  }
 }
 
-.section#menu {
-    background-color: #D1D1D1;
+@media (max-width: 480px) {
+  header {
+    padding: 8px;
+  }
+
+  .logo h1 {
+    font-size: 10px;
+  }
+
+  .nav-links a {
+    font-size: 10px;
+  }
+
+  .nav-links {
+    margin-right: 20px;
+  }
+
+  .header-container {
+    align-items: baseline;
+  }
 }
