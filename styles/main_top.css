@@ -73,7 +73,7 @@
 
 @media (max-width: 480px) {
   .mainTop {
-    padding-top: 100px;
+    padding-top: 120px;
     width: 100%;
     background-position: center;
     justify-content: flex-start;
@@ -98,7 +98,7 @@
   }
 
   .mainTop img {
-    width: 80%;
+    width: 60%;
     height: auto;
     padding-left: 0;
   }
