@@ -82,6 +82,10 @@ header {
   .nav-links {
     margin-right: 0;
   }
+
+  .header-container {
+    align-items: baseline;
+  }
 }
 
 @media (max-width: 480px) {
@@ -91,12 +95,12 @@ header {
   }
 
   .logo h1 {
-    font-size: 10px;
-    margin-left: 10px;
+    font-size: 20px;
+    /* margin-left: 10px; */
   }
 
   .nav-links a {
-    font-size: 10px;
+    font-size: 12px;
   }
 
   .nav-links {
@@ -104,6 +108,8 @@ header {
   }
 
   .header-container {
-    align-items: baseline;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 }
