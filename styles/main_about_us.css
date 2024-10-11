@@ -48,7 +48,7 @@
   }
   }
 
-@media (max-width: 900px) {
+@media (max-width: 768px) {
   
   .aboutUs {
     box-sizing: border-box;
@@ -68,6 +68,7 @@
     font-size: 16px;
     text-align: justify;
   }
+  
   .aboutUs img {
     width: 300px;
   }
