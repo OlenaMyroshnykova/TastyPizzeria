@@ -46,10 +46,14 @@
   .aboutUs img {
     width: 300px;
   }
+
+  .lineUnderAboutUs {
+    width: 220px;
+    margin: 0 auto;
   }
+}
 
 @media (max-width: 768px) {
-  
   .aboutUs {
     box-sizing: border-box;
     display: flex;
@@ -68,8 +72,29 @@
     font-size: 16px;
     text-align: justify;
   }
-  
+
   .aboutUs img {
     width: 300px;
   }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .aboutUs {
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
   }
+
+  .aboutUs_description {
+    width: 400px;
+    font-size: 18px;
+  }
+
+  .aboutUs_title h3 {
+    font-size: 28px;
+  }
+
+  .aboutUs img {
+    width: 350px;
+  }
+}
