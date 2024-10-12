@@ -7,8 +7,8 @@
   align-items: center;
   margin: 0 auto;
   padding-top: 0;
-  background-image: url("../images/Rectangle_2.png"),
-    url("../images/wood-2045380_1920.png");
+  background-image: url("../images/mainTop/Rectangle_2.png"),
+    url("../images/mainTop/wood-top.png");
   background-position: bottom;
   background-size: cover;
   background-repeat: no-repeat;
