@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-# TastyPizzeria
-Project is in dev in progress now
-=======
 # Tasty Pizzeria / Deliciosa pizza
 <img src="images/favicon.ico" title="logo" alt="logo" width='100px' height='100px' />
 Welcome to **TastyPizzeria**, an intuitive and user-friendly web application that allows users to browse, customize, and order delicious pizzas. Whether you're a pizza lover or just want a quick and easy way to order your favorite food, TastyPizzeria has you covered!
@@ -84,4 +80,3 @@ If you have any questions, feel free to reach out:
 Project Maintainers: Olena Myroshnykova, Nadiia Alaieva, Anna Nepyivoda, Oleg Poberezhets, Alex Manzhos.
 
 e-mail: CodeDreamers@gmail.com
->>>>>>> origin/dev
