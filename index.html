@@ -1,26 +1,125 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pizzas</title>
-    <link rel="stylesheet" href="styles/style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quattrocento:wght@400;700&family=Ruda:wght@400..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
+    <title>Deliciosa pizza</title>
+  </head>
+  <body>
     <header>
-
+            <div class="header-container">
+                <div class="logo">
+                    <h1>Deliciosa Pizza</h1>
+                </div>
+                <nav class="nav-links">
+                  <a href="#home">INICIO</a>
+                  <a href="#aboutpizza">SOBRE NOSOTROS</a>
+                  <a href="#menu">MENU</a>
+                </nav>
+            </div>
     </header>
-
     <main>
-        <div id="pizzaSection" class="cardsPizza">
-            
+      <div id="home" class="mainTop">
+        <div class="brandName">
+          <h1>Deliciosa pizza</h1>
+        <div class="lineUnderBrandName"></div>
+      </div>
+        <div class="brandDescription">
+          <h4>
+            En Deliciosa Pizza nos dedicamos a crear pizzas artesanales con ingredientes frescos y de calidad. Disfruta de nuestras recetas clásicas o descubre nuevas combinaciones, siempre con el mejor sabor.
+¡Haz tu pedido ahora y disfruta de una pizza deliciosa!
+          </h4>
+        </div> 
+          <img src="./images/mainTop/pizza-top.png" alt="picture of pizza" srcset="" />
         </div>
+       </div>
+       <div class="mainContainer" id="aboutpizza">
+        <div class="aboutUs">
+          <div class="text_box">
+            <div class="aboutUs_title"><h3>Sobre nosotras</h3></div>
+            <div class="lineUnderAboutUs"></div>
+            <div class="aboutUs_description">
+              <p>
+                En nuestra cafetería, no solo podrás disfrutar de una deliciosa
+                comida, sino que también tendrás la oportunidad de deleitarte
+                con unas impresionantes vistas al mar, que convertirán cada
+                visita en una experiencia inolvidable. Tanto si decides
+                acomodarte en nuestro acogedor patio al aire libre, donde podrás
+                sentir la brisa marina, como si prefieres el interior, te
+                recibiremos con un auténtico y cálido diseño que crea una
+                atmósfera confortable y agradable. Nuestro menú es tan variado
+                como original, diseñado para sorprender y satisfacer todos los
+                paladares. Cada plato está elaborado con ingredientes frescos y
+                de alta calidad, cuidando hasta el más mínimo detalle para que
+                cada bocado sea un verdadero placer. ¡Te esperamos con los
+                brazos abiertos!
+              </p>
+            </div>
+          </div>
+        <img src="./images/aboutUs/restaurant.png" alt="restaurant" />
+        </div>
+        <div class="ourMenu">
+          <div class="title_ourMenu"><h3>Nuestro menú</h3></div>
+          <div class="lineUnderOurMenu"></div>
+          <div class="ourMenu_description">
+            <p>
+              En nuestro menú encontrarás una deliciosa variedad de pizzas
+              artesanales, preparadas con ingredientes frescos y de alta
+              calidad. Desde las clásicas hasta nuestras especialidades únicas,
+              hay una opción para todos los gustos. ¡Descubre nuestra oferta!
+            </p>
+          </div>
+          <div class="photos_ourMenu">
+            <img src="./images/ourMenu/cooks.png" alt="cooks" />
+            <img src="./images/ourMenu/dough.png" alt="dough" />
+          </div>
+        </div>
+        <div>
+          <div id="menu" class="mainCardsTop">
+            <h3 class="mainCardsTitle">Menú</h3>
+            <div class="lineUnderMenu"></div>
+          </div>
+          <div id="pizzaSection" class="cardsPizza"></div>
+        </div>
+      </div>
+      <div class="mainBottom">
+        <img class="pizza" src="./images/mainBottom/pizza-bottom.png" alt="" srcset="" />
+        <div class="brandName2"><h2>Deliciosa pizza</h2>
+        <div class="lineUnderBrandName2"></div>
+        </div>
+        <ul class="contactsList">
+  <li class="contactsListItem">
+    <a href="https://i.postimg.cc/C5ffGsbZ/1724260838262768778.jpg" target='blank'>
+      <img class="contactsIcon" src="./images/icons/instagram.png" alt="instagram icon">
+    </a>
+  </li>
+  <li class="contactsListItem">
+    <a href="https://i.postimg.cc/vDFx3xv0/cat-sits-pizza-glass-beer-803636-2388-jpg.avif" target='blank'>
+      <img class="contactsIcon" src="./images/icons/facebook.png" alt="facebook icon">
+    </a>
+  </li>
+  <li class="contactsListItem">
+    <a href="https://postimg.cc/c6SM6bP1" target='blank'>
+      <img class="contactsIcon" src="./images/icons/viber.png" alt="viber icon">
+    </a>
+  </li>
+</ul>
+
+      </div>
     </main>
-
     <footer>
-
+            <div class="footer-container">
+                <p>TODOS LOS DERECHOS RESERVADOS @ Deliciosa pizza 2024 | Design Equipo1</p>
+            </div>
     </footer>
-    <script src="js/index.js" defer></script>  
-</body>
+    <script src="js/index.js" defer></script>
+  </body>
 </html>

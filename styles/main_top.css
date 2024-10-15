@@ -1,0 +1,118 @@
+.mainTop {
+  height: 1024px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 0 auto;
+  padding-top: 0;
+  background-image: url("../images/mainTop/Rectangle_2.png"),
+    url("../images/mainTop/wood-top.png");
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.lineUnderBrandName {
+  height: 4px;
+  width: 482px;
+  justify-content: center;
+  background-color: rgb(242, 201, 76);
+  margin-bottom: 20px;
+}
+
+.brandDescription {
+  height: 201px;
+  width: 745px;
+  color: white;
+  font-family: "Quattrocento", serif;
+  text-align: center;
+}
+
+.brandName {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  font-family: "Quattrocento", serif;
+  color: white;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.brandName h1 {
+  margin-bottom: 25px;
+}
+
+@media (max-width: 768px) {
+  .mainTop {
+    padding-top: 120px;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .brandName {
+    width: 40%;
+    text-align: center;
+  }
+
+  .brandName h1 {
+    font-size: 32px;
+  }
+
+  .brandDescription {
+    width: 50%;
+    font-size: 20px;
+    text-align: center;
+    line-height: 1.4;
+  }
+  .mainTop img {
+    width: 60%;
+    height: auto;
+    padding-left: 0;
+  }
+
+  .lineUnderBrandName {
+    width: 60%;
+  }
+}
+
+@media (max-width: 480px) {
+  .mainTop {
+    padding-top: 120px;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .brandName {
+    font-size: 20px;
+    width: 40%;
+    text-align: center;
+  }
+
+  .brandDescription {
+    width: 70%;
+    font-size: 14px;
+    text-align: center;
+    line-height: 1.4;
+  }
+
+  .lineUnderBrandName {
+    width: 50%;
+  }
+
+  .mainTop img {
+    width: 60%;
+    height: auto;
+    padding-left: 0;
+  }
+}

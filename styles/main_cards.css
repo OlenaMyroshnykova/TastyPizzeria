@@ -1,0 +1,146 @@
+.mainCardsTop {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.pizzaSection {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.pizzaCard {
+  max-width: 650px;
+  font-size: 16px;
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+}
+
+.pizzaCard:nth-child(odd) {
+  margin-left: 20px;
+}
+
+.pizzaCard:hover,
+.pizzaCard:focus {
+  border: 1px solid rgba(242, 201, 76, 1);
+  -webkit-box-shadow: 0px 0px 10px 3px rgba(242, 201, 76, 0.73);
+  -moz-box-shadow: 0px 0px 10px 3px rgba(242, 201, 76, 0.73);
+  box-shadow: 0px 0px 10px 3px rgba(242, 201, 76, 0.73);
+}
+
+.pizzaCard h5 {
+  font-size: 20px;
+  text-transform: uppercase;
+  margin: 0;
+  font-family: "Ruda", sans-serif;
+  font-weight: 400;
+}
+
+.cardBody {
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.pizzaList {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+  padding: 0;
+  font-size: 20px;
+  color: rgba(242, 201, 76, 1);
+}
+
+.pizzaPhoto {
+  width: 100%;
+  max-width: 273px;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+}
+
+.pizzaSection {
+  display: flex;
+  flex-direction: column;
+  height: 1024px;
+  width: 1440px;
+}
+
+.cardsPizza {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.mainCardsTitle {
+  margin-bottom: 0;
+  font-size: 32px;
+}
+
+.lineUnderMenu {
+  height: 4px;
+  width: 220px;
+  background-color: #f2c94c;
+}
+
+@media (max-width: 768px) {
+  .pizzaList {
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .pizzaCard {
+    max-width: 70%;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-left: 0;
+  }
+
+  .mainCardsTitle {
+    font-size: 24px;
+  }
+
+  .pizzaCard img {
+    align-self: center;
+    padding-left: 0;
+  }
+
+  .pizzaCard:nth-child(odd) {
+    margin-left: 0;
+  }
+
+  .pizzaList {
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+  }
+
+  .pizzaList h5 {
+    font-size: 18px;
+  }
+  .pizzaCards {
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    border: 1px solid rgba(242, 201, 76, 1);
+    margin-bottom: 30px;
+  }
+
+  .cardBody {
+    margin: 0;
+    text-align: center;
+  }
+
+  .mainCardsTop {
+    margin-bottom: 20px;
+  }
+}
